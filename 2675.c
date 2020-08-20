@@ -7,8 +7,8 @@ int main(void){
     scanf("%d", &T);
     for(int i=0; i<T; i++){
         scanf("%d %s", &R, S);  //반복횟수와 문자열을 받는다.
-        for(int i=0; i<S[i]; i++){
-            for(int i=0; i<R; i++){
+        for(int i=0; i<strlen(S); i++){
+            for(int j=0; j<R; j++){
                 printf("%c", S[i]);
             }
         }
