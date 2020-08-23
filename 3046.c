@@ -6,4 +6,5 @@ int main(){
     //R2 = 2*S -R1으로 구할 수 있다.
     R2 = 2*S - R1;
     printf("%d\n", R2);
+    return 0;
 }

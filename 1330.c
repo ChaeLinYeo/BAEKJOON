@@ -9,4 +9,5 @@ int main(){
     }else if(A==B){
         printf("==");
     }
+    return 0;
 }

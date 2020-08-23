@@ -12,5 +12,5 @@ int main(void){
         printf("%d\n", sum);
         sum = 0;
     }
-
+    return 0;
 }

@@ -18,4 +18,5 @@ int main (){
     if(x>0 && y<0){
         printf("%d\n", 4);
     }
+    return 0;
 }

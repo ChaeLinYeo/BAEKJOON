@@ -17,4 +17,5 @@ int main(){
         num++;  //단어개수 증가
     }
     printf("%d\n", num);
+    return 0;
 }

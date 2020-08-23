@@ -11,4 +11,5 @@ int main(){
         }
     }
     printf("%d\n%d", max, pos); //최댓값과 그 값의 순서 출력
+    return 0;
 }
