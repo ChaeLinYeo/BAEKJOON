@@ -6,7 +6,7 @@ answer = [-1]*26
 #문자를 아스키코드로 바꾸기 위해 ord()를 사용한다.
 for i in range(len(S)): 
     if answer[ord(S[i])-97] != -1:
-        continue
+        continue    # 출현한 적 있는 알파벳이라면 컨틴뉴~
     else:
         answer[ord(S[i])-97] = i
 print(' '.join(map(str, answer)))  #정수 리스트를 문자열로 바꿔 출력
