@@ -1,7 +1,6 @@
-import collections
-N = int(input())
-chair = list(map(int, input().split()))
-count = [0]*101
+N = int(input())	#손님 수
+chair = list(map(int, input().split()))	#손님이 원하는 자리
+count = [0]*101	#피씨방 전체 자리
 result=0
 for num in chair:
 	if count[num]==0:	#자리가 비어있으면
